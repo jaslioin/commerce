@@ -2,7 +2,7 @@
   "name": "nextjs-commerce",
   "version": "1.0.0",
   "scripts": {
-    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "analyze": "BUNDLE_ANALYZE=both yarn build",
@@ -64,6 +64,7 @@
     "@types/lodash.throttle": "^4.1.6",
     "@types/node": "^15.12.4",
     "@types/react": "^17.0.8",
+    "cross-env": "^7.0.3",
     "deepmerge": "^4.2.2",
     "eslint": "^7.31.0",
     "eslint-config-next": "^11.0.1",
